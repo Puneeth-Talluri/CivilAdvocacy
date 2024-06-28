@@ -1,10 +1,10 @@
 # CivilAdvocacy
-• This app will acquire and display an interactive list of political officials that represent the current 
+• This app acquires and displays an interactive list of political officials that represent the current 
 location (or a specified location) at each level of government.
 
 • Android location services will be used to determine the user’s location.
 
-• The Google Civic Information API [here](https://developers.google.com/civic-information/)  will be used to acquire the government official data (via REST service 
+• The Google Civic Information API [here](https://developers.google.com/civic-information/)  is used to acquire the government official data (via REST service 
 and JSON results).
 
 • Clicking on an official’s list entry opens a detailed view of that individual government representative.
@@ -12,8 +12,6 @@ and JSON results).
 • Clicking on the photo of an official will display a Photo Activity, showing a larger version of the photo.
 
 • An “About” activity will show application information (Author, Copyright data & Version)
-
-• Your manifest should add permissions for ACCESS_FINE_LOCATION and INTERNET
 
 • The application is made up of 4 activities, shown below:
 
